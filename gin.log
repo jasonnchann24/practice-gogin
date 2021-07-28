@@ -1,0 +1,33 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- 
+	- footer.html
+	- header.html
+	- index.html
+
+[GIN-debug] GET    /api/videos               --> main.main.func1 (3 handlers)
+[GIN-debug] POST   /api/videos               --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /view/videos              --> github.com/jasonnchann24/gogin-rest/controllers.VideoController.ShowAll-fm (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 499.6µs 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 890.8µs 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 427µs 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 435.9µs 
+::1 - [28 Jul 21 21:10 WIB] GET /favicon.ico 404 400ns 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 517.9µs 
+::1 - [28 Jul 21 21:10 WIB] GET /favicon.ico 404 200ns 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 345.1µs 
+::1 - [28 Jul 21 21:10 WIB] GET /favicon.ico 404 300ns 
+::1 - [28 Jul 21 21:10 WIB] GET /view/videos 200 219.6µs 
+::1 - [28 Jul 21 21:10 WIB] GET /favicon.ico 404 300ns 
+::1 - [28 Jul 21 21:11 WIB] GET /view/videos 200 621.2µs 
+::1 - [28 Jul 21 21:11 WIB] POST /api/videos 201 425.8µs 
+::1 - [28 Jul 21 21:11 WIB] POST /api/videos 201 114.4µs 
+::1 - [28 Jul 21 21:11 WIB] POST /api/videos 201 125.7µs 
+::1 - [28 Jul 21 21:11 WIB] POST /api/videos 201 108µs 
+::1 - [28 Jul 21 21:11 WIB] GET /view/videos 200 630.6µs 
